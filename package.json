@@ -1,0 +1,28 @@
+{
+  "name": "careerLab02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evestockstill/careerLab02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evestockstill/careerLab02/issues"
+  },
+  "homepage": "https://github.com/evestockstill/careerLab02#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0"
+  }
+}
