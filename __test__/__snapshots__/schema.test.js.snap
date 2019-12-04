@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Schema throws on a bad schema 1`] = `"schema.validate is not a function"`;
